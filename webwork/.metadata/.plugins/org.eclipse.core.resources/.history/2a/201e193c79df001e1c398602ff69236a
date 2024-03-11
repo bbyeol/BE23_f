@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_date_exam1</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+//1. 오전과 오후에 배경색이 달라지도록 작성하세요.
+//    오전 => lime
+//    오후 => red
+//    오전 오후를 구분하는 메소드를 찾아서 작업하기
+let today = new Date();
+let dateHour = today.getHours();
+
+function bgColor(dateHour){
+			if(dateHour<=12){
+				document.write(dateHour+"시<br/>");
+				document.bgColor="lime";
+			}else{
+				document.write(dateHour+"시<br/>");
+				document.bgColor="red";
+			}
+		}
+		
+
+//2. 요일별로 이미지가 달라지도록 작성하세요
+//일요일 = m_garden01.jpg
+//월요일 = m_garden02.jpg
+//화요일 =m_garden03.jpg
+//수요일 = m_garden4.jpg
+//목요일 = m_garden05.jpg
+//금요일 = m_garden06.jpg
+//토요일 = m_garden07.jpg 
+
+
+bgColor();
+</script>
+</body>
+</html>

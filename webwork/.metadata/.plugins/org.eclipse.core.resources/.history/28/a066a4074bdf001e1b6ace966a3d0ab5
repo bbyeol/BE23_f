@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function printGugu(){
+			document.write("<table border='1'>");
+				for(i=1;i<=9;i++){
+					document.write("<tr>");
+					document.write("<td><h3>"+dan+"*"+i+"="+(dan*i)+"</h3></td>");
+					document.write("</tr>");
+				}
+		}	
+		
+		//[합구하기]
+sum = 0;
+for(i=1;i<=100; i++){
+	sum = sum + i
+}
+document.write("</table>");
+
+//위의 소스는 합을 구하기 위한 코드입니다. 위의 코드를 이용하여 다음과 같은 조건을 만족하도록 함수를 정의합니다.
+//함수명 : getSum
+//매개변수 : 2, 리턴값:O
+// => 합을 구하기 위한 시작값과 종료값을 매개변수로 전달 받아 계산하도록 적용하세요
+
+//[계산기능을 수행할 수 있도록 함수 정의하기]
+//숫자1, 숫자2, 연산자(+,-,*,/)를 각각 매개변수로 입력 받아 계산 결과를 리턴할 수 있도록 작성하기
+//함수명 : calc
+//매개변수:3, 리턴값: O
+//- 숫자1,숫자2는 number, 연산자는 string으로 입력받으세요
+//위에서 정의한 함수를 호출할 수 있도록 호출문을 각각 정의하시고 테스트하세요
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+	printGugu()
+	</script>>
+</body>
+</html>

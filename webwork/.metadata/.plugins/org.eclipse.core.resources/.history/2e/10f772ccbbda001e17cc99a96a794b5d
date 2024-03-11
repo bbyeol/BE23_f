@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_statement_test</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//변수=값;
+		let kor = 98;
+		let eng = 100;
+		let math = 97;
+		let sum = kor + eng + math;
+		let avg = sum/3;
+		
+
+		document.write("국어:"+kor+"<br/>");
+		document.write("영어:"+eng+"<br/>");
+		document.write("수학:"+math+"<br/>");
+		document.write("총점:"+sum+"<br/>");
+		document.write("평균:"+avg+"<br/>");
+		//+연산자는 연결연산자의 의미
+		//+연산자 앞에 문자열이 있으면 뒤에 있는 숫자는 문자열화시킨다.
+	</script>
+
+</body>
+</html>

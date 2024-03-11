@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+function test1(){
+	alert("외부에서 정의된 함수...");
+}
+function test2(){
+	confirm("외부에서 정의된 함수...");
+}
+function test3(){
+	prompt("외부에서 정의된 함수...");
+}

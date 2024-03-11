@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>js_function_test</title>
+	<script type="text/javascript">
+		function mytest() {
+			for(let i=1;i<10;i++){
+				console.log("자바스크립트:"+i);
+			}
+			console.log("++++++++++++++++++++++");
+		}
+		//함수를 정의
+		//1. 리턴값이 없고 매개변수가 없는 함수
+		//더하기 위한 숫자값들이 고정되어 있으므로 제한있음(사용자들의 요구사항을 반영할 수 없다.)
+		function test1() {
+			let num1 = 100;
+			let num2 = 200;
+			document.write("<h1>test1함수:"+(num1+num2)+"</h1>");
+		}
+		//2. 리턴값이 없고 매개변수가 있는 함수
+		 function test2(num1,num2){
+			 document.write("<h1>test2함수:"+(num1+num2)+"</h1>");
+		
+			 
+		//2)함수의 결과를 또다른 함수의매개변수로 전달할 수 있다.
+		alert(test);
+		}
+	</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//함수의 호출
+			//1.매개변수가 없고 리턴값이 없는 함수의 호출
+			document.write("<h1>시작</h1>");
+			test1();
+			//2.리턴값이 없고 매개변수가 있는 함수의 호출
+			test2(100,200);
+			test2(500,600);
+			//prompt의 실행결과를 매개변수로 전달 - 매개변수에 다른 함수의 호출결과를 전달할 수 있다.
+			let num1 = parseInt(prompt("숫자를 입력하세요."));
+			test2(num1,1000);
+			test2(num1, parseInt(prompt("숫자를 입력하세요.")))
+			
+			//3. 리턴값이 있고 매개변수가 있는 함수의 호출
+			//리턴값이 있는 경우 리턴값을 받아서 사용할 수 있도록 코드를 구현
+			// 1)리턴값을 저장할 변수를 선언하고 받기
+			let myresult=test3(1000,2000);
+			document.write("<h3>test3의 실행결과=>"+myresult+"</h3>");
+			console.log("결과=>"+myresult);
+			if(myresult>=500){
+				 alert("통과");
+				}
+			else{
+				alert("다시작업");
+			}
+				
+			//함수는 정의하고 호출하지 않으면 실행되지 않는다.
+			mytest();
+		</script>
+
+	</body>
+</html>

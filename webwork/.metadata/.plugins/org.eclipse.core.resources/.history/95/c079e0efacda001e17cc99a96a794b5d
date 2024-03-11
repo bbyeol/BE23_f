@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--자바스크립트 예제
+[미션] - js_basic_exam.html
+	   ① exam.js작성하기
+	      test1함수 - alert실행
+	      test2함수 - confirm실행
+	      test3함수 - prompt실행
+	     
+	   ② 문서에서 버튼을 정의하고 onclick이벤트핸들러로 test1함수 연결하기
+	   ③ 문서에서 문자열을 정의하고 하이퍼링크로 test2함수 연결하기
+	   ④ 문서에서 image를 추가하고 하이퍼링크로 test3함수 연결하기
+	     => 이미지에 하이퍼링크로 함수 연결
+	   ⑤ 문서에 이미지를 추가하고 이미지의 onclick이벤트핸들러에서 test1함수 연결하기
+	   ⑥ 문서에 스크립트를 추가하고 콘솔에 메시지 출력하기
+	     => <script></script>안에 정의하기
+	   ⑦ 실행화면캡쳐 후 소스파일과 제출하기-->
+<title>Insert title here</title>
+<script type="text/javascript" src="../common/js/exam.js"></script>
+</head>
+<body>
+
+	<input type="button" value="자바스크립트 함수연결1" onclick="test1()"/>
+	<a href="javascript:test2()">test2</a>
+	<a href="javasctipt:test3()"><img src="../images/bts1.jpg"> </a>
+	<img src="../images/bts2.jpg" onclick="test1()"/>
+	<script type="text/javascript">
+		console.log("console.log");
+		 </script>
+
+</body>
+</html>

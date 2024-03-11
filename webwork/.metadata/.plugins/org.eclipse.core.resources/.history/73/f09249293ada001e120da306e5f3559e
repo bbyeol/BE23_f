@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1, h2 {
+	color:  #a7cece;
+} 
+#main{
+	width: 70%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	}
+
+#sub{
+	background-color: #a7cece;
+	background-repeat : no-repeat
+	margin:0;
+	
+}
+#garden{
+	margin-left:100px;
+	height: 20px;
+	font-style:italic ;
+}
+
+#garden02{
+	float:right;
+	width:30%;
+	border:solid  #a7cece 2px;
+	align-content: center;
+	text-align: center;
+}
+
+#garden02 > h2{
+	color:black;
+}
+#garden02 > h3{
+	color:red;
+}
+#footer{
+	clear:both;
+	text-align: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- 자바스크립트에서 대화상자 활용하기 -->
+	<script type="text/javascript">
+		function test1(){
+			alert("안내창");
+		}
+		function test2(){
+			변수=confirm("삭제하시겠어요?");
+			alert(변수);
+			console.log(변수);
+		}
+		function test3(){
+			prompt("좋아하는 언어는?(사용자에게 입력 받는 대화상자)");
+		}
+		
+	</script>>
+</head>
+<body>
+	<input type="button" value="자바스크립트 함수연결1" onclick="test1()"/>
+	<input type="button" value="자바스크립트 함수연결2" onclick="test2()"/>
+	<input type="button" value="자바스크립트 함수연결3" onclick="test3()"/>
+
+</body>
+</html>

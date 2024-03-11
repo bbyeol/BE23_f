@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	#container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+
+	}
+	#header{
+		background-color: red;
+		height: 80px;
+	}
+	#header h1{
+		line-height: 22pt;
+	}
+	
+	#main{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	/* 블릿포인트(리스트 앞에 추가되는 기호) 텍스트와 같은 영역에 렌더링(그려질수있도록)조절 */
+	#side1 ul side2 ul{
+		list-style-position: inside;
+	}
+	#side1{
+		background-color: brown;
+		width: 20%;
+		height: 60%;
+		
+	}
+	#content{
+		background-color: dimgrey;
+		width: 60%;
+	
+	}
+	#side2{	
+		background-color: green;
+		width: 20%;
+		height: 60%;		
+	}
+	#footer{
+		background-color: purple;
+		height: 100px;
+
+	}
+	
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"> 
+			<h1>Header</h1>
+		</div>
+		<div id="main">
+			<div id="side1">
+				<h2>Sidebar1</h2>
+				<ul>
+					<li>Sidebar1 Menu</li>
+					<li>Sidebar1 Menu</li>
+					<li>Sidebar1 Menu</li>
+					<li>Sidebar1 Menu</li>
+				</ul>
+			</div>
+			
+			<div id="content">
+				<h2>Content</h2>
+				<p>CSS stands for Cascading Style Sheet.</p>
+				<p>CSS stands for Cascading Style Sheet.</p>
+				<p>CSS stands for Cascading Style Sheet.</p>
+				<p>CSS stands for Cascading Style Sheet.</p>
+				<p>CSS stands for Cascading Style Sheet.</p>
+			</div>
+			
+			<div id="side2">
+				<h2>Sidebar2</h2>
+				<ul>
+					<li>Sidebar2 Menu</li>
+					<li>Sidebar2 Menu</li>
+					<li>Sidebar2 Menu</li>
+					<li>Sidebar2 Menu</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="footer">
+			<h2>Footer</h2>
+		</div>
+	</div>
+</body>
+</html>

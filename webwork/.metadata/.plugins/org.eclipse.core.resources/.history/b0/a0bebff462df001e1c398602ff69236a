@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_function_arrow_test</title>
+</head>
+<body>
+	<script type="text/javascript">
+		const myfunc = function() {
+			return "화살표함수연습(화살표함수 전의 일반표현식)";
+		}
+		let result1 = myfunc();
+		console.log(result1);
+		
+		//화살표함수이용
+		const myfunc2 = function(){
+			return "화살표함수연습(화살표함수전의 일반표현식)";
+		}
+		let result2 = myfunc();
+		console.log(result1);
+	</script>
+
+</body>
+</html>

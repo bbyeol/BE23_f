@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#box{
+	background-image: url("../../images/background.gif");
+	background-color: #a7cece;
+	margin-left: 30px;
+	padding-left:80px;
+	padding:10px;
+
+	background-repeat : no-repeat;
+	width: auto;
+	height: 150px;
+	
+}
+#text{
+	margin-left:100px;
+}

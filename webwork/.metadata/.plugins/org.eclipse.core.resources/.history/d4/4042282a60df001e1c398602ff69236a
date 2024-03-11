@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_function_expression_test</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		//표현식을 이용해서 함수를 정의하면 호이스팅이 발생하지않음
+		//myfunc(70);
+		var myfunc = function test(num){
+			if(num>=90){
+				console.log("통과");
+			}else{
+				console.log("다시작업");
+			}
+		}
+	myfunc(100);
+	
+	</script>
+</body>
+</html> 

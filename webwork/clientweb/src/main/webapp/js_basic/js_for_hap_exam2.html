@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let sum = 0 ;//총합을 저장할 변수
+		let oddSum = 0;//홀수합을 저장할 변수
+		let evenSum = 0;//짝수의합을 저장할 변수
+		for(let i=1;i<=100;i++){
+			//document.write("<h3>"+i+"</h3>");
+			if(i%2==0){
+				evenSum = evenSum+i;
+			}else{
+				oddSum = oddSum +i;
+			}
+			sum = sum+i;
+		}
+		document.write("<h2>홀수더한결과=>"+oddSum+"</h2>")
+		document.write("<h2>짝수더한결과=>"+evenSum+"</h2>")
+		document.write("<h2>총더한결과=>"+sum+"</h2>")
+	</script>
+</body>
+</html>

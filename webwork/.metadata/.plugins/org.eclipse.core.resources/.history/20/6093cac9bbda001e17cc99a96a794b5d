@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		국어, 영어, 수학 점수를 98,100,97으로 정의한 후    점수와 총점과 평균을 document에 출력하기
+[출력형식]
+     국어 : ___
+     수학 : ___
+     영어 : ___
+     총점 : ___
+     평균 : ___
+	-->
+	<script type="text/javascript">
+		num1 = 100;
+		num2 = 200;
+		var result = num1 + num2; // 연산
+		document.wrtie("연산결과=>"+result);
+		num2 = 300;
+		var result = num1 + num2; // 연산
+		document.write("연산결과=>"+result+"<br/>");
+		
+		
+		let myval = 200;
+		document.write(myval+"<br/>");
+		
+		myval="테스트";
+		document.wrtie(myval);
+		
+		const myconst = 1000;
+		document.write(myconst);
+		
+		const myconst = 2000;
+		document.write(myconst);
+	</script>
+</body>
+</html>

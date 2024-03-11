@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_switch_exam</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let num = prompt("점수를 입력하세요.");
+		if(num<0 || num>100){
+			document.write("<h1>점수:"+num+",잘못입력</h1>");
+		}else{
+			switch(true){
+				case num>=90:
+					document.write("<h1>점수:"+num+",수</h1>");
+					break;
+				case num>=80:
+					document.write("<h1>점수:"+num+",우</h1>");
+					break;
+				case num>=70:
+					document.write("<h1>점수:"+num+",미</h1>");
+					break;
+				case num>=60:
+					document.write("<h1>점수:"+num+",양</h1>");
+					break;
+				default:
+					document.write("<h1>점수:"+num+",가</h1>");
+			}
+		}
+	</script>
+</body>
+</html>

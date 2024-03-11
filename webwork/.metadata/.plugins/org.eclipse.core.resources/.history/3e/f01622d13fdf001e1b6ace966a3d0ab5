@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>js_function_test</title>
+	<script type="text/javascript">
+		function mytest() {
+			for(let i=1;i<10;i++){
+				console.log("자바스크립트");
+			}
+			console.log("++++++++++++++++++++++");
+		}
+		
+	</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//함수는 정의하고 호출하지 않으면 실행되지 않는다.
+			mytest();
+		</script>
+
+	</body>
+</html>

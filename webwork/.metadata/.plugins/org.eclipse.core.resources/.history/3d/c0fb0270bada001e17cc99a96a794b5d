@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_statement_test</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//변수=값;
+		num1 = 100;
+		num2 = 200;
+		var result = num1 + num2; // 연산
+		document.wrtie("연산결과=>"+result);
+		num2 = 300;
+		var result = num1 + num2; // 연산
+		document.write("연산결과=>"+result+"<br/>");
+		
+		
+		let myval = 200;
+		document.write(myval+"<br/>");
+		
+		myval="테스트";
+		document.wrtie(myval);
+		
+		const myconst = 1000;
+		document.write(myconst);
+		
+		const myconst = 2000;
+		document.write(myconst);
+	</script>
+
+</body>
+</html>

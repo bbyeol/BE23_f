@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//증감연산자
+		let x;
+		let y;
+		
+		x=5;
+		y=x++;
+		document.wrtie("y=x++ => x=" +x+",y="+y+"<br/>");
+		
+		x=5;
+		y=++x;
+		document.wrtie("y=++x => x=" +x+",y="+y+"<br/>");
+		
+		x=5;
+		y=x--;
+		document.wrtie("y=x-- => x=" +x+",y="+y+"<br/>");
+		
+		x=5;
+		y=--x;
+		document.wrtie("y=--x => x=" +x+",y="+y+"<br/>");
+		
+		
+	</script>
+
+</body>
+</html>

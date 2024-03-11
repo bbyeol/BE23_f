@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		국어, 영어, 수학 점수를 98,100,97으로 정의한 후    점수와 총점과 평균을 document에 출력하기
+[출력형식]
+     국어 : ___
+     수학 : ___
+     영어 : ___
+     총점 : ___
+     평균 : ___
+	-->
+	<script type="text/javascript">
+		//변수=값;
+		let kor = 98;
+		let eng = 100;
+		let math = 97;
+		let sum = kor + eng + math;
+		let avg = sum/3;
+		
+
+		document.write("국어:"+kor+"<br/>");
+		document.write("영어:"+eng+"<br/>");
+		document.write("수학:"+math+"<br/>");
+		document.write("총점:"+sum+"<br/>");
+		document.write("평균:"+avg+"<br/>");
+		//+연산자는 연결연산자의 의미
+		//+연산자 앞에 문자열이 있으면 뒤에 있는 숫자는 문자열화시킨다.
+	</script>
+</body>
+</html>

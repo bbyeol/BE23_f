@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let gender = prompt("성별을 입력하세요.");
+		if(gender<=0 || gender>4){
+			alert("잘못입력");
+		}else{
+			let age = prompt("나이를 입력하세요.");
+			if(gender==1 || gender==3){//성별을 이용해서 남자 여자를 평가
+				if(age>=20){
+					document.write("<h1>성인남자</h1>");
+				}else{
+					document.write("<h1>청소년남자</h1>");
+				}
+			}else{
+				if(age>=20){
+					document.write("<h1>성인여자</h1>");
+				}else{
+					document.write("<h1>청소년여자</h1>");
+				}	
+			}
+		}
+		
+	</script>
+</body>
+</html>

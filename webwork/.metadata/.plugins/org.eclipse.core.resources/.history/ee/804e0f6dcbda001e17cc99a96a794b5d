@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let num_prompt=prompt("숫자를 입력하세요");
+		
+		
+		
+		document.write(num_prompt%5+"<br/>"); //나머지 구함
+		if(num_prompt&5==0) {
+			//조건을 만족하는 경우 실행할 문장
+			document.write("5의배수"+"<img src='/clientweb/image/bts1.jpg'/>");
+		}else{
+			//조건을 만족하지 않는 경우 실행할 문장
+			document.write("<h2>불합격</h2>");
+		}
+	
+	iftest();
+	</script>
+	<input type="button" value="숫자를 입력하세요" onclick="iftest()"/>
+</body>
+</html>

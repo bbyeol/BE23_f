@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_statement_test</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//변수=값;
+		num1 = 100;
+		num2 = 200;
+		var result = num1 + num2; // 연산
+		
+	</script>
+
+</body>
+</html>

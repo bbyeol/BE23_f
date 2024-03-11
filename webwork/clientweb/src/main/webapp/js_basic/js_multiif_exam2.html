@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let num = prompt("점수를 입력하세요.");
+		if(num<0 || num>100){
+			document.write("<h1>점수:"+num+",잘못입력</h1>");
+		}else{
+			if(num>=90){
+				document.write("<h1>점수:"+num+",수</h1>");
+			}else if(num>=80){
+				document.write("<h1>점수:"+num+",우</h1>");
+			}else if(num>=70){
+				document.write("<h1>점수:"+num+",미</h1>");
+			}else if(num>=60){
+				document.write("<h1>점수:"+num+",양</h1>");
+			}else {
+				document.write("<h1>점수:"+num+",가</h1>");
+			}
+		}
+		
+	</script>
+</body>
+</html>

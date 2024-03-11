@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- body태그 내부에서 정의하고 사용하는 방법 (MIME)-->
+	<script type="text/javascript">
+		document.write("<h1>브라우저에 html태그를 실행해서 출력 - 연습용</h1>";
+	 /* 객체.속성 */
+		consol.log("디버깅용-자바의 system.out.println 비슷한 역할")
+	</script>
+	<h1>안녕</h1>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_function_variable_scope_test</title>
+	<script type="text/javascript"> 
+		//자바스크립트에는 전역변수와 지역변수
+		//1. function 밖(스크립트위에서 변수를 선언:var키워드없이)에서 변수를 선언하는 경우 : global변수(전역변수)
+		num1 = 100;
+		function test1(){
+			document.write("test1에서 num1을 사용=>"+num1+"<br/>");
+		}
+		function test2(){
+			document.write("test2에서 num1을 사용=>"+num1+"<br/>");
+		}
+				
+		
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		test1();
+		document.write("<hr/>");
+		test2();
+		document.write("<hr/>");
+		document.write("body에서 num1을 사용 =>"+num1+"<hr/>");
+		
+	</script>
+
+</body>
+</html>

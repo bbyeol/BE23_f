@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_date_test1</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+		//Date객체를 생성하고 사용
+		//자바스크립트 엔진에 포함되어 있는 Date객체를 사용하기 위해서 메모리에 할당
+		let today = new Date();
+		let dday = new Date("2024-03-20");
+		
+		document.write(today+"<br/>");
+		document.write(dday+"<br/>");
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1, h2 {
+	color:  #a7cece;
+} 
+#main{
+	width: 65%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	}
+
+#garden{
+	background-image: url("../../images/background.gif");
+	background-color: #a7cece;
+	margin-left:30px;
+	padding-left:100px;
+	padding:20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	background-repeat : no-repeat;
+	width: auto;
+	height: auto;
+	font-style:italic ;
+}
+##text{
+	margin-left: 80px;
+}
+#garden02{
+	float:right;
+	width:30%;
+	border:solid  #a7cece 2px;
+	align-content: center;
+	text-align: center;
+}
+
+#garden02 > h2{
+	color:black;
+}
+#garden02 > h3{
+	color:red;
+}
+#footer{
+	clear:both;
+	text-align: center;
+}

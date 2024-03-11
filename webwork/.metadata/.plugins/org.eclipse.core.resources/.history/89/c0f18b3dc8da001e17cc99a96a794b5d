@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js_if_test1(조건제어문-if문 기본)</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//1.조건이 만족하는 경우에만 실행할 명령문이 있는 경우
+		let num1 = 98;
+		
+	</script>
+</body>
+</html>

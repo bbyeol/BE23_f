@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+	li {
+		list-style: none;
+		
+		border:1px white solid;
+		font-size: 20px;
+		padding: 30px;
+		border-radius:40px;
+		width:100px;
+		float:left;
+		text-align: center;
+		font-weight: bold;
+	}
+	li:nth-child(2n) {/* 짝수 */
+				color:chocolate;
+				background-color:coral;
+				}
+	li:nth-child(2n+1) {/* 홀수 */
+				color:chocolate;
+				background-color: yellow;
+				}
+	a {
+		color:red;
+		text-decoration: none;
+	}
+	/* 단, nth-child선택자를 활용해서 작업하세요
+각 메뉴에는 임의의 문서를 연결하세요(아무문서나)
+하이퍼링크가 연결된 문서에는 밑줄없애고, 글자색상 red, 글씨굵게 적용하기 */
+	</style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#">회원가입</a>
+        </li>
+        <li>
+            <a href="#">제품정보</a>
+        </li>
+        <li>
+            <a href="#">게시판</a>
+        </li>
+        <li>
+            <a href="#">장바구니</a>
+        </li>
+    </ul>
+</body>
+</html>
